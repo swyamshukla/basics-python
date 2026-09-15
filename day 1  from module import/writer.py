@@ -8,6 +8,4 @@ name(myname+" from writer")
 
 
 
-def greet():
-    print("goodMornig from writer")
 
