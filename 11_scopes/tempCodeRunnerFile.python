@@ -1,0 +1,9 @@
+
+
+def bharWala():
+    x=20
+    def andrWala():
+        print(x)
+    return andrWala
+a=bharWala()
+a() #output:20
