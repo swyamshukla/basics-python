@@ -10,6 +10,7 @@ print(f"Recipe: {chai_recipe}")
 del chai_recipe["liquid"]
 print(f"Recipe: {chai_recipe}")
 
+
 print(f"Is sugar in the order? {'sugar' in chai_order}")
 
 chai_order = {"type": "Ginger Chai", "size": "Medium", "sugar": 1}
