@@ -1,5 +1,14 @@
+print(set())
+print(list())
+print(dict({
+    "key":"valye",
+    "chicken":"chicken"
+}))
+
 essential_spices = {"cardamom", "ginger", "cinnamon"}
 optional_spices = {"cloves", "ginger", "black pepper"}
+
+
 
 all_spices = essential_spices | optional_spices
 print(f"All spices: {all_spices}")
