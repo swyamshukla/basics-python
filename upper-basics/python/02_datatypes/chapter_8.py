@@ -19,10 +19,11 @@ chai_ingredients.reverse()
 print(f"chai: {chai_ingredients}")
 chai_ingredients.sort()
 print(f"chai: {chai_ingredients}")
-
 sugar_levels = [1, 2, 3, 4, 5]
 print(f"Maximum sugar level: {max(sugar_levels)}")
 print(f"Minimum sugar level: {min(sugar_levels)}")
+
+
 
 base_liquid = ["water", "milk"]
 extra_flavor = ["ginger"]
