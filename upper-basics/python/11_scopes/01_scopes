@@ -1,0 +1,44 @@
+# scope
+
+
+# 1. Local Scope
+# 2. Global Scope
+# 3. Enclosing Scope
+
+# Local Scope
+def func():
+    x = 10
+    print(x)
+
+func()
+
+# Global Scope
+x = 20
+def func2():
+    #global x # this will change the global variable x. what is global keyword?    
+    x=30
+    print(x)
+
+func2()
+print(x) #output:20
+
+# Enclosing Scope
+def outer():
+    x = 10
+    def inner():
+        x=20
+        print(x)
+    inner()
+
+outer()
+
+
+# closure
+
+def bharWala():
+    x=20
+    def andrWala():
+        print(x)
+    return andrWala
+a=bharWala()
+a() #output:20
