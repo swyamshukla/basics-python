@@ -7,3 +7,14 @@ client = OpenAI()
 response = client.responses.create(model="gpt-6-astra", input="write 10 jokes on java developer")
 
 print(response.output_text)
+
+
+client.chat.completions.create(model="gpt-6-astra", prompt="write 10 jokes on java develop")
+
+
+
+
+
+
+
+
